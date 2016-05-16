@@ -1,0 +1,8 @@
+<div ng-repeat= "character in characters">
+  {{ character.name }}
+  <div ng-bind-html="character.body">
+  </div>
+  <div ng-bind-html="character.potrait">
+  </div>
+</div>
+<iframe width="560" height="315" ng-srcset="{{ characters[1].youtube }}" frameborder="0" allowfullscreen></iframe>
